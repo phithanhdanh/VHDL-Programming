@@ -1,0 +1,10 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY nand_4 IS 
+	PORT (a,b,c,d: IN STD_lOGIC;
+			o: OUT STD_lOGIC);
+END nand_4;
+ARCHITECTURE dataflow OF nand_4 IS
+BEGIN
+	o <= not(a and b and c and d);
+END dataflow;

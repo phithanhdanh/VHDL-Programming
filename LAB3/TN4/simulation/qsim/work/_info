@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Phi Thanh Danh\Documents\VHDL Programming\LAB3\TN4\simulation\qsim
+vTN4
+Z1 !s100 <gel:K6jQ[hIi`TI4]`[U3
+Z2 I^I2KR6ZN?0XNCbG?2CcH`1
+Z3 VWP7N8dDoche]fcCfm6@:]3
+Z4 dC:\Users\Phi Thanh Danh\Documents\VHDL Programming\LAB3\TN4\simulation\qsim
+Z5 w1606987677
+Z6 8TN4.vo
+Z7 FTN4.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|TN4.vo|
+Z10 o-work work -O0
+Z11 n@t@n4
+!i10b 1
+!s85 0
+Z12 !s108 1606987679.140000
+Z13 !s107 TN4.vo|
+!s101 -O0
+vTN4_vlg_check_tst
+!i10b 1
+Z14 !s100 F]Nim=Lczb4ZlKX^_9mFP0
+Z15 IboV2fOm5gS<aKf>9kLcQU1
+Z16 VAL?O=M^z:2G>d4nnLkc=J2
+R4
+Z17 w1606987676
+Z18 8TN4.vt
+Z19 FTN4.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1606987679.281000
+Z21 !s107 TN4.vt|
+Z22 !s90 -work|work|TN4.vt|
+!s101 -O0
+R10
+Z23 n@t@n4_vlg_check_tst
+vTN4_vlg_sample_tst
+!i10b 1
+Z24 !s100 z[PK=BXz5E<8P65a5j5Y>3
+Z25 IR7Yd5@M=Z[_2gX8V?ChU?1
+Z26 VhZOVJQg=<?_h82KPRebkF1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@t@n4_vlg_sample_tst
+vTN4_vlg_vec_tst
+!i10b 1
+Z28 !s100 E?S8Mz]Dj994S9eLkNn>n0
+Z29 INkQYn3SM@JXjSfn0<XTk>1
+Z30 V^_A?PGMi0mbhXSJl^zNZP0
+R4
+R17
+R18
+R19
+Z31 L0 153
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@t@n4_vlg_vec_tst

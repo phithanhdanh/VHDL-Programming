@@ -1,0 +1,50 @@
+|TN4
+SW[2] => decode38:Maxterms.x[0]
+SW[1] => decode38:Maxterms.x[1]
+SW[0] => decode38:Maxterms.x[2]
+F <= nand_4:Output.o
+
+
+|TN4|decode38:Maxterms
+x[0] => Equal0.IN5
+x[0] => Equal1.IN5
+x[0] => Equal2.IN5
+x[0] => Equal3.IN5
+x[0] => Equal4.IN5
+x[0] => Equal5.IN5
+x[0] => Equal6.IN5
+x[0] => Equal7.IN5
+x[1] => Equal0.IN4
+x[1] => Equal1.IN4
+x[1] => Equal2.IN4
+x[1] => Equal3.IN4
+x[1] => Equal4.IN4
+x[1] => Equal5.IN4
+x[1] => Equal6.IN4
+x[1] => Equal7.IN4
+x[2] => Equal0.IN3
+x[2] => Equal1.IN3
+x[2] => Equal2.IN3
+x[2] => Equal3.IN3
+x[2] => Equal4.IN3
+x[2] => Equal5.IN3
+x[2] => Equal6.IN3
+x[2] => Equal7.IN3
+y[7] <= Equal7.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= Equal6.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= Equal5.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= Equal4.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TN4|nand_4:Output
+a => o.IN0
+b => o.IN1
+c => o.IN1
+d => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

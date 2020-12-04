@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Phi Thanh Danh\Documents\VHDL Programming\LAB3\TN5_Behavioral\simulation\qsim
+vTN5_Behavioral
+Z1 !s100 SBELLJ0<=@a9MlK8;8Ec92
+Z2 I2EhH0_JQ7lnoD[WEj5=;z0
+Z3 VbgeezQW=<6d6MOlC;ZKB20
+Z4 dC:\Users\Phi Thanh Danh\Documents\VHDL Programming\LAB3\TN5_Behavioral\simulation\qsim
+Z5 w1606967549
+Z6 8TN5_Behavioral.vo
+Z7 FTN5_Behavioral.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|TN5_Behavioral.vo|
+Z10 o-work work -O0
+Z11 n@t@n5_@behavioral
+!i10b 1
+!s85 0
+Z12 !s108 1606967550.399000
+Z13 !s107 TN5_Behavioral.vo|
+!s101 -O0
+vTN5_Behavioral_vlg_check_tst
+!i10b 1
+Z14 !s100 RAh:`YOACQ?IYIXmh>U]a3
+Z15 IK[Hf6`MbAd3]6Vc[bQLWm1
+Z16 V]gPgjamW87XDQ_VG>1S0H0
+R4
+R5
+Z17 8TN5_Behavioral.vt
+Z18 FTN5_Behavioral.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1606967550.555000
+Z20 !s107 TN5_Behavioral.vt|
+Z21 !s90 -work|work|TN5_Behavioral.vt|
+!s101 -O0
+R10
+Z22 n@t@n5_@behavioral_vlg_check_tst
+vTN5_Behavioral_vlg_sample_tst
+!i10b 1
+Z23 !s100 g;zCG2mZ@^C0X2J30fnFe0
+Z24 IC;g4mD0F0fD]HXP[z[[EY1
+Z25 V5m9fCh2`PjXM`^ogV`E511
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@t@n5_@behavioral_vlg_sample_tst
+vTN5_Behavioral_vlg_vec_tst
+!i10b 1
+Z27 !s100 Qb<<h=4^Z50TBe[Fb84FJ1
+Z28 I10c20KkdUaQVe6a?C33Gk3
+Z29 V;[K0>FJb[8flj>Y7IjCX13
+R4
+R5
+R17
+R18
+Z30 L0 205
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z31 n@t@n5_@behavioral_vlg_vec_tst

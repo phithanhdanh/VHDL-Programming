@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity TN5_Behavioral is
+	port(	SW: in std_logic_vector(7 downto 0);
+			LEDR: out std_logic_vector(3 to 0));
+end entity;
+
+architecture behavior of TN5_Behavioral is
+begin
+	process(SW)
+		variable a,b,s: std_logic_vector(3 downto 0);
+		variable c: std_logic_vector (4 downto 0);
+	begin
+		a := SW(7 downto 4);
+		b := not SW(3 downto 0);
+		c := '00001';
+		s := '0000';
+		for i in 0 to 3 loop
+			s(i) := a(i) xor b(i) xor c(i);
+			c(i+1) := a(i) and b(i) or c(i) and (a(i) xor b(i));
+		end loop;
+		LEDR <= s;
+	end process;
+end behavior

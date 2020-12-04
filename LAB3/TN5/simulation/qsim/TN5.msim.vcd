@@ -1,0 +1,94 @@
+$comment
+	File created using the following command:
+		vcd file TN5.msim.vcd -direction
+$end
+$date
+	Mon Nov 30 10:37:07 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module TN5_vlg_vec_tst $end
+$var reg 8 ! SW [7:0] $end
+$var wire 1 " LEDR [3] $end
+$var wire 1 # LEDR [2] $end
+$var wire 1 $ LEDR [1] $end
+$var wire 1 % LEDR [0] $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - subtract|Add0~0_combout $end
+$var wire 1 . subtract|Add0~1 $end
+$var wire 1 / subtract|Add0~2_combout $end
+$var wire 1 0 subtract|Add0~3 $end
+$var wire 1 1 subtract|Add0~4_combout $end
+$var wire 1 2 subtract|Add0~5 $end
+$var wire 1 3 subtract|Add0~6_combout $end
+$var wire 1 4 SW~combout [7] $end
+$var wire 1 5 SW~combout [6] $end
+$var wire 1 6 SW~combout [5] $end
+$var wire 1 7 SW~combout [4] $end
+$var wire 1 8 SW~combout [3] $end
+$var wire 1 9 SW~combout [2] $end
+$var wire 1 : SW~combout [1] $end
+$var wire 1 ; SW~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101111 !
+1%
+0$
+1#
+1"
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+1.
+0/
+00
+11
+12
+13
+1;
+1:
+19
+18
+07
+16
+05
+04
+$end
+#8960000
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+0;
+0:
+09
+08
+06
+0&
+0-
+01
+03
+0%
+0#
+0"
+#100000000

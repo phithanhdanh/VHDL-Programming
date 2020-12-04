@@ -1,0 +1,98 @@
+$comment
+	File created using the following command:
+		vcd file TN4_Behavioral.msim.vcd -direction
+$end
+$date
+	Thu Dec 03 10:54:09 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module TN4_Behavioral_vlg_vec_tst $end
+$var reg 3 ! SW [0:2] $end
+$var wire 1 " LEDR [0] $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * LEDR~0_combout $end
+$var wire 1 + SW~combout [0] $end
+$var wire 1 , SW~combout [1] $end
+$var wire 1 - SW~combout [2] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0-
+0,
+z+
+$end
+#60000
+b1 !
+1-
+0#
+1*
+0"
+#110000
+b11 !
+b10 !
+0-
+1,
+1#
+#160000
+b11 !
+1-
+0#
+0*
+1"
+#220000
+b111 !
+b101 !
+b100 !
+0-
+0,
+1#
+#280000
+b101 !
+1-
+0#
+1*
+0"
+#340000
+b111 !
+b110 !
+0-
+1,
+1#
+#390000
+b111 !
+1-
+0#
+0*
+1"
+#450000
+b11 !
+b1 !
+b0 !
+0-
+0,
+1#
+#1000000

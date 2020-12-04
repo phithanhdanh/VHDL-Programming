@@ -1,0 +1,100 @@
+$comment
+	File created using the following command:
+		vcd file TN4.msim.vcd -direction
+$end
+$date
+	Thu Dec 03 16:28:00 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module TN4_vlg_vec_tst $end
+$var reg 3 ! SW [0:2] $end
+$var wire 1 " F $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * Output|o~0_combout $end
+$var wire 1 + SW~combout [0] $end
+$var wire 1 , SW~combout [1] $end
+$var wire 1 - SW~combout [2] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0-
+0,
+z+
+$end
+#5120000
+b1 !
+b11 !
+1-
+1,
+0#
+#8960000
+b111 !
+b110 !
+b100 !
+0-
+0,
+1#
+#14720000
+b101 !
+b111 !
+1-
+1,
+0#
+#20480000
+b11 !
+b10 !
+0-
+1#
+1*
+0"
+#24960000
+b0 !
+b100 !
+b101 !
+1-
+0,
+0#
+#28800000
+b111 !
+b110 !
+0-
+1,
+1#
+#32000000
+b10 !
+b0 !
+b1 !
+1-
+0,
+0#
+#35200000
+b0 !
+0-
+1#
+0*
+1"
+#100000000

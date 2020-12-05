@@ -1,0 +1,15 @@
+|TN5
+J => Qp.IN1
+K => Qp.IN1
+Clk => Qt.CLK
+Clk => Qp.CLK
+Pr => process_0.IN0
+Pr => process_0.IN0
+Pr => process_0.IN0
+Cl => process_0.IN1
+Cl => process_0.IN1
+Cl => process_0.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn.DB_MAX_OUTPUT_PORT_TYPE
+
+

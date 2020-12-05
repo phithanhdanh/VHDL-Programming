@@ -1,0 +1,19 @@
+|xor3
+a => xor2:u1.i1
+b => xor2:u1.i2
+c => xor2:u2.i2
+result <= xor2:u2.y
+
+
+|xor3|xor2:u1
+i1 => y.IN0
+i2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|xor3|xor2:u2
+i1 => y.IN0
+i2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

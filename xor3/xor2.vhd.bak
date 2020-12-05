@@ -1,0 +1,10 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY xor2 IS
+ PORT ( a, b: IN STD_LOGIC;
+ result : OUT STD_LOGIC);
+END xor2;
+ARCHITECTURE dataflow OF xor2 IS
+ BEGIN
+	result <= a xor b;
+ END dataflow;

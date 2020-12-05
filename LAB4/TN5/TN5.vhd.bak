@@ -1,0 +1,20 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY TN4 IS
+	PORT(	J,K, Clk : IN STD_LOGIC;
+			Q, Qn : OUT STD_LOGIC);
+END TN4;
+
+ARCHITECTURE behavior OF TN4 IS
+signal temp: std_logic;
+BEGIN
+	process (Clk)
+	begin
+		temp <= Q;
+		if rising_edge(Clk) then
+			Q <= J and 
+			Qn <= not D;
+		end if;
+	end process;
+END behavior;
